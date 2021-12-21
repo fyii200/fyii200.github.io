@@ -71,24 +71,41 @@ Given the importance of eye length in the pathogenesis of ocular complications a
 ### Predict AL from retinal images
 The secondary aim of my research is to see if one can predict AL from retinal images using DL. It would also be equally interesting to see if temporal changes in AL can be predicted using a similar approach.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<sub> 1. Holden B, Fricke T, Wilson D, Jong M, Naidoo K, Sankaridurg P et al. Global Prevalence of Myopia and High Myopia and Temporal Trends from 2000 through 2050. Ophthalmology. 2016;123(5):1036-1042. </sub>
 
-###### 1. Holden B, Fricke T, Wilson D, Jong M, Naidoo K, Sankaridurg P et al. Global Prevalence of Myopia and High Myopia and Temporal Trends from 2000 through 2050. Ophthalmology. 2016;123(5):1036-1042.
-###### 2. Chua S.Y.L., Foster P.J. (2020) The Economic and Societal Impact of Myopia and High Myopia. In: Ang M., Wong T. (eds) Updates on Myopia. Springer, Singapore.
-###### 3. Flitcroft D. The complex interactions of retinal, optical and environmental factors in myopia aetiology. Progress in Retinal and Eye Research. 2012;31(6):622-660.
-###### 4. Wiesel T, Raviola E. Myopia and eye enlargement after neonatal lid fusion in monkeys. Nature. 1977;266(5597):66-68.
-###### 5. Troilo D, Smith E, Nickla D, Ashby R, Tkatchenko A, Ostrin L et al. IMI – Report on Experimental Models of Emmetropization and Myopia. Investigative Opthalmology & Visual Science. 2019;60(3):M31.
-###### 6. Tedja M, Haarman A, Meester-Smoor M, Kaprio J, Mackey D, Guggenheim J et al. IMI – Myopia Genetics Report. Investigative Opthalmology & Visual Science. 2019;60(3):M89.
-###### 7. Morgan I, Wu P, Ostrin L, Tideman J, Yam J, Lan W et al. IMI Risk Factors for Myopia. Investigative Opthalmology & Visual Science. 2021;62(5):3.
-###### 8. Wildsoet C, Chia A, Cho P, Guggenheim J, Polling J, Read S et al. IMI – Interventions for Controlling Myopia Onset and Progression Report. Investigative Opthalmology & Visual Science. 2019;60(3):M106.
-###### 9. He X, Sankaridurg P, Naduvilath T, Wang J, Xiong S, Weng R et al. Normative data and percentile curves for axial length and axial length/corneal curvature in Chinese children and adolescents aged 4–18 years. British Journal of Ophthalmology. 2021;:bjophthalmol-2021-319431.
-###### 10. Han X, Liu C, Chen Y, He M. Myopia prediction: a systematic review. Eye. 2021;.
-###### 11. Jones L, Sinnott L, Mutti D, Mitchell G, Moeschberger M, Zadnik K. Parental History of Myopia, Sports and Outdoor Activities, and Future Myopia. Investigative Opthalmology & Visual Science. 2007;48(8):3524.
-###### 12. Leshno A, Farzavandi S, Gomez-de-Liaño R, Sprunger D, Wygnanski-Jaffe T, Mezer E. Practice patterns to decrease myopia progression differ among paediatric ophthalmologists around the world. British Journal of Ophthalmology. 2019;104(4):535-540.
-###### 13. Matsumura S, Lanca C, Htoon H, Brennan N, Tan C, Kathrani B et al. Annual Myopia Progression and Subsequent 2-Year Myopia Progression in Singaporean Children. Translational Vision Science & Technology. 2020;9(13):12.
-###### 14. Hastie T, Tibshirani R, Friedman J. The elements of statistical learning. 2nd ed. Springer; 2009.
-###### 15. Goodfellow I, Bengio Y, Courville A. Deep learning. Cambridge (EE. UU.): MIT Press; 2016.
-###### 16. Ohno-Matsui K, Wu P, Yamashiro K, Vutipongsatorn K, Fang Y, Cheung C et al. IMI Pathologic Myopia. Investigative Opthalmology & Visual Science. 2021;62(5):5.
-###### 17. Du R, Xie S, Fang Y, Igarashi-Yokoi T, Moriyama M, Ogata S et al. Deep Learning Approach for Automated Detection of Myopic Maculopathy and Pathologic Myopia in Fundus Images. Ophthalmology Retina. 2021;5(12):1235-1244.
-###### 18. Hemelings R, Elen B, Blaschko M, Jacob J, Stalmans I, De Boever P. Pathological myopia classification with simultaneous lesion segmentation using deep learning. Computer Methods and Programs in Biomedicine. 2021;199:105920.
-###### 19. Ohno-Matsui K, Kawasaki R, Jonas J, Cheung C, Saw S, Verhoeven V et al. International Photographic Classification and Grading System for Myopic Maculopathy. American Journal of Ophthalmology. 2015;159(5):877-883.e7.
+<sub> 2. Chua S.Y.L., Foster P.J. (2020) The Economic and Societal Impact of Myopia and High Myopia. In: Ang M., Wong T. (eds) Updates on Myopia. Springer, Singapore. </sub>
+
+<sub> 3. Flitcroft D. The complex interactions of retinal, optical and environmental factors in myopia aetiology. Progress in Retinal and Eye Research. 2012;31(6):622-660. </sub>
+
+<sub> 4. Wiesel T, Raviola E. Myopia and eye enlargement after neonatal lid fusion in monkeys. Nature. 1977;266(5597):66-68. </sub>
+
+<sub> 5. Troilo D, Smith E, Nickla D, Ashby R, Tkatchenko A, Ostrin L et al. IMI – Report on Experimental Models of Emmetropization and Myopia. Investigative Opthalmology & Visual Science. 2019;60(3):M31. </sub>
+
+<sub> 6. Tedja M, Haarman A, Meester-Smoor M, Kaprio J, Mackey D, Guggenheim J et al. IMI – Myopia Genetics Report. Investigative Opthalmology & Visual Science. 2019;60(3):M89. </sub>
+
+<sub> 7. Morgan I, Wu P, Ostrin L, Tideman J, Yam J, Lan W et al. IMI Risk Factors for Myopia. Investigative Opthalmology & Visual Science. 2021;62(5):3. </sub>
+<sub> 8. Wildsoet C, Chia A, Cho P, Guggenheim J, Polling J, Read S et al. IMI – Interventions for Controlling Myopia Onset and Progression Report. Investigative Opthalmology & Visual Science. 2019;60(3):M106. </sub>
+
+<sub> 9. He X, Sankaridurg P, Naduvilath T, Wang J, Xiong S, Weng R et al. Normative data and percentile curves for axial length and axial length/corneal curvature in Chinese children and adolescents aged 4–18 years. British Journal of Ophthalmology. 2021;:bjophthalmol-2021-319431. </sub>
+
+<sub> 10. Han X, Liu C, Chen Y, He M. Myopia prediction: a systematic review. Eye. 2021;. </sub>
+
+<sub> 11. Jones L, Sinnott L, Mutti D, Mitchell G, Moeschberger M, Zadnik K. Parental History of Myopia, Sports and Outdoor Activities, and Future Myopia. Investigative Opthalmology & Visual Science. 2007;48(8):3524. </sub>
+
+<sub> 12. Leshno A, Farzavandi S, Gomez-de-Liaño R, Sprunger D, Wygnanski-Jaffe T, Mezer E. Practice patterns to decrease myopia progression differ among paediatric ophthalmologists around the world. British Journal of Ophthalmology. 2019;104(4):535-540. </sub>
+
+<sub> 13. Matsumura S, Lanca C, Htoon H, Brennan N, Tan C, Kathrani B et al. Annual Myopia Progression and Subsequent 2-Year Myopia Progression in Singaporean Children. Translational Vision Science & Technology. 2020;9(13):12. </sub>
+
+<sub> 14. Hastie T, Tibshirani R, Friedman J. The elements of statistical learning. 2nd ed. Springer; 2009. </sub>
+
+<sub> 15. Goodfellow I, Bengio Y, Courville A. Deep learning. Cambridge (EE. UU.): MIT Press; 2016. </sub>
+
+<sub> 16. Ohno-Matsui K, Wu P, Yamashiro K, Vutipongsatorn K, Fang Y, Cheung C et al. IMI Pathologic Myopia. Investigative Opthalmology & Visual Science. 2021;62(5):5. </sub>
+
+<sub> 17. Du R, Xie S, Fang Y, Igarashi-Yokoi T, Moriyama M, Ogata S et al. Deep Learning Approach for Automated Detection of Myopic Maculopathy and Pathologic Myopia in Fundus Images. Ophthalmology Retina. 2021;5(12):1235-1244. </sub>
+
+<sub> 18. Hemelings R, Elen B, Blaschko M, Jacob J, Stalmans I, De Boever P. Pathological myopia classification with simultaneous lesion segmentation using deep learning. Computer Methods and Programs in Biomedicine. 2021;199:105920. </sub>
+
+<sub> 19. Ohno-Matsui K, Kawasaki R, Jonas J, Cheung C, Saw S, Verhoeven V et al. International Photographic Classification and Grading System for Myopic Maculopathy. American Journal of Ophthalmology. 2015;159(5):877-883.e7. </sub>
