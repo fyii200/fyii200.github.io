@@ -66,7 +66,9 @@ Another question one might want to consider is, **'How likely is future PM?'** T
 
 ## Axial length (AL)
 ### What matters at the end of the day
-Given the importance of eye length in the pathogenesis of ocular complications associated with myopia, AL changes are now an important outcome measure in every myopia clinical trial. All myopia interventions are based on the premise that they will slow axial elongation (eye growth) to some extent. Indeed, refractive error is just a useful proxy measure of AL where myopia control is concerned. Moreover, to evaluate the success of ortho-K (a special, hard contact lens worn overnight to reshape the front clear 'window' of the eye) as a myopia intervention, AL measurement is also of paramount importance. This is because true changes in refractive error between visits are masked by changes in corneal curvature.
+Given the importance of eye length in the pathogenesis of ocular complications associated with myopia, AL changes are now an important outcome measure in every myopia clinical trial. All myopia interventions are based on the premise that they will slow axial elongation (eye growth) to some extent. Indeed, refractive error is just a useful proxy measure of AL where myopia control is concerned. 
+
+To evaluate the success of ortho-K (a special, hard contact lens worn overnight to reshape the front clear 'window' of the eye) as a myopia intervention, AL measurement is also of paramount importance. This is because true changes in refractive error between visits are masked by changes in corneal curvature.
 
 ### Predict AL from retinal images
 The secondary aim of my research is to see if one can predict AL from retinal images using DL. It would also be interesting to see if temporal changes in AL can be predicted using a similar approach.
