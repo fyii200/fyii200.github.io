@@ -2,7 +2,7 @@
 I am a PhD candidate based in the [Centre for Clinical Brain Sciences](https://www.ed.ac.uk/clinical-brain-sciences), with affliations to [SCONe](https://www.ed.ac.uk/clinical-sciences/ophthalmology/scone/about-scone) and [VAMPIRE](https://vampire.computing.dundee.ac.uk). The big picture of my PhD 
 is to apply artificial intelligence approaches to predicting *short-sightedness **(myopia)***. The primary aim of this site is to support the [Open Science Initiative](https://en.wikipedia.org/wiki/Open_science) and document my work where possible, i.e. if not at risk of confidential data breaches.
 
-**PS, this is just the repository for the site where code, figures, etc. are stored. I also give a high-level, not too geeky-techie but rather convoluted overview of the background of my PhD below. Actual site can be accessed [here](https://fyii200.github.io).**
+*PS, this is just the repository for the site where code, figures, etc. are stored. I also give a high-level, not too geeky-techie but rather convoluted overview of the background of my PhD below. **[Actual site can be accessed here](https://fyii200.github.io).***
 
 ## Why myopia? 
 ### Because it is far more than just an optical inconvinience
