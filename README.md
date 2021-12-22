@@ -57,7 +57,7 @@ I should first say a few words to highlight the disntinction between the implica
 
 On the other hand, we are concerned with those who are already myopic when we speak of myopia progression. The aim of progression prediction is to single out patients at risk of high progression rate to justify the use of stronger interventions, e.g. higher-dose atropine, combination strategies, etc. **Ultimately, the goal is to keep the end point of myopia to a minimum so as to reduce the risk of irreversible visual impairment caused by diseases associated with myopia and PM.**
 
-*PS, PM refers to excessive eye growth associated with myopia that leads to deleterious structural changes in the posterior segment of the eye, e.g. staphyloma and myopic maculopathy.<sup>16</sup>*
+*PS, PM refers to excessive eye growth associated with myopia that leads to deleterious structural changes in the posterior segment of the eye, e.g. staphyloma and myopic maculopathy<sup>16</sup>.*
 
 ### High myopia, too late to help? Maybe Not.
 Models that predict myopia onset and progression are pointless where adult patients are concerned (myopia usually develops and progresses during childhood). However, if an adult patient suffers from high (axial) myopia, one question one might be intrigued to ask is, **'Does this patient have PM?'** Knowing if someone has PM will enable timely management (where such intervention is available and backed by evidence), e.g. anti-vascular endothelial growth factor (anti-VEGF) for myopic macular neovascularisation (MNV)<sup>16</sup>, although there is no cure per se to reverse any structural changes that have already occured. DL models that detect different categories of PM with good performance are already available<sup>17,18</sup>.
