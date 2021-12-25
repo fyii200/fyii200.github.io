@@ -21,9 +21,9 @@
 title: Dry lab scribbles
 email: fabian.yii@ed.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  I am interested in applying AI approaches to predicting myopia onset, progression and risk of pathologic 
-  myopia. I use this site as a platform to share my laboratory notebook publicly in support of the Open 
-  Science Initiative. 
+  I am interested in applying AI approaches to predicting myopia (aka short-sightedness). 
+  I use this site as a platform to share my laboratory notebook publicly in support of the 
+  Open Science Initiative. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yiifabian
