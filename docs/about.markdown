@@ -7,14 +7,14 @@ permalink: /about/
 I am a PhD candidate based in the [Centre for Clinical Brain Sciences](https://www.ed.ac.uk/clinical-brain-sciences), with affliations to [SCONe](https://www.ed.ac.uk/clinical-sciences/ophthalmology/scone/about-scone) and [VAMPIRE](https://vampire.computing.dundee.ac.uk). The big picture of my PhD 
 is to apply artificial intelligence approaches to predicting myopia onset, myopia progression and risk of pathologic myopia. 
 
-> #### This site functions as an open laboratory notebook to support the [Open Science Initiative](https://en.wikipedia.org/wiki/Open_science). I provide a super high-level overview of my PhD below. If you have 20 minutes to kill, however, you may wish to read a more convoluted version [here](https://github.com/fyii200/fyii200.github.io).
+> #### This site functions as an open laboratory notebook to support the [Open Science Initiative](https://en.wikipedia.org/wiki/Open_science). I provide a super high-level overview of my PhD below. If you have at least 20 minutes, however, you may wish to read a more elaborate version [here](https://github.com/fyii200/fyii200.github.io).
 
 <br/>
 ### **My research in less than 250 words**...
 
-Machine learning (ML), much like a clinician, relies on **X**, e.g. IOP, CCT, visual fields, cup-to-disc ratio, disc size, etc., to arrive at **Y**, e.g. glaucomatous or not glaucomatous. But unlike human clinicians, ML has an enormous capacity to model complex relationships between **X** and **Y**.
+Machine learning (ML), much like a clinician, relies on input features (**X**), e.g. IOP, CCT, visual fields, cup-to-disc ratio, disc size, etc., to arrive at a prediction (**Y**), e.g. glaucomatous or not glaucomatous. But unlike human clinicians, ML has an enormous capacity to model complex relationships between **X** and **Y**.
 
-But it is possible that we don't know all the **X** out there! Deep learning (DL), a subset of ML, addresses this challenge by discarding the need to specify what **X** are. We can just provide raw retinal images, and it will learn to extract relevant features and model the relationship between these learned features and **Y**.
+Nonetheless, selecting useful **X** may not always be possible/ straightforward. Deep learning (DL), a subset of ML, circumvents this challenge by discarding the need to specify **X** altogether. We can just provide raw retinal images, and it will learn to extract relevant features and model the relationship between these learned features and **Y**.
 
 The availability of a plethora of myopia interventions makes it important to stratify patients based on future progression rate. Intervention with more/ stronger side effects is justified if a patient is believed to be a fast progressor. Current prediction methods rely on population-based estimates, e.g. centile growth curve of axial length (AL), epidemiologic models (e.g. age, baseline refractive, error, outdoor time), etc., and are therefore subject to inter-individual variability in progression rate.
 
