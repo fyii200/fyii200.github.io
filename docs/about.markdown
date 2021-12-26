@@ -12,11 +12,11 @@ is to apply artificial intelligence approaches to predicting myopia onset, myopi
 <br/>
 ### **My research in less than 250 words**...
 
-Machine learning (ML), similar to a clinician, relies on **X**, e.g. IOP, CCT, visual fields, cup-to-disc ratio, disc size, etc., to arrive at **Y**, e.g. glaucomatous or not glaucomatous. But unlike human clinicians, ML has an enormous capacity to model complex relationships between **X** and **Y**.
+Machine learning (ML), much like a clinician, relies on **X**, e.g. IOP, CCT, visual fields, cup-to-disc ratio, disc size, etc., to arrive at **Y**, e.g. glaucomatous or not glaucomatous. But unlike human clinicians, ML has an enormous capacity to model complex relationships between **X** and **Y**.
 
 But it is possible that we don't know all the **X** out there! Deep learning (DL), a subset of ML, addresses this challenge by discarding the need to specify what **X** are. We can just provide raw retinal images, and it will learn to extract relevant features and model the relationship between these learned features and **Y**.
 
-The availability of a plethora of myopia interventions makes it important to stratify patients based on future progression rate. Intervention with more/ stronger side effects is justified if a patient is believed to be a fast progressor. Current prediction methods, like centile growth curve of axial length (AL) and epidemiologic models (e.g. age, baseline refractive, error, outdoor time), make population-based estimates and are therefore, affected by differences in progression rate between individuals.
+The availability of a plethora of myopia interventions makes it important to stratify patients based on future progression rate. Intervention with more/ stronger side effects is justified if a patient is believed to be a fast progressor. Current prediction methods, like centile growth curve of axial length (AL) and epidemiologic models (e.g. age, baseline refractive, error, outdoor time), make population-based estimates and are therefore affected by inter-individual variability in progression rate.
 
 Prediction based on past progression rate is also [not reliable](https://iovs.arvojournals.org/article.aspx?articleid=2769467). **Can we tap into DL to predict myopia onset and progression rate from retinal images at the *individual level*?** Such granular approach to myopia prediction will enable personalisation of interventions. Given the prospect of prophylaxis for some pathologic myopia in future, e.g. treatment targeting [CCDC102B](https://www.nature.com/articles/s41467-018-03649-3) for myopic maculopathy, **can we predict future risk of pathologic myopia based on the [META-PM](https://pubmed.ncbi.nlm.nih.gov/25634530/) classification system?**
 
