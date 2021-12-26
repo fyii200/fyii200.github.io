@@ -1,29 +1,10 @@
 ---
 layout: post
-title:  "Refractive error with a significant non-axial component"
+title:  "Idenfying refractive error with a significant non-axial component"
 date:   2021-12-26 14:49:02 +0000
 categories: jekyll update
 ---
-Axial length
+Refractive error arises from a mismatch between axial length (AL) and the refractive components of the eye, i.e. cornea, crystalline lens. In most cases, such mismatch is predominantly axial in nature. That is, the abnormal homeostatic regulation of eye growth — rather than that of corneal and lenticular curvature — is often the culprit behind refractive error development/ progression during childhood. AL is typically high (>24mm as a fairly useful rule of thumb) among myopes. Importantly, axial elongation can largely be attributed to changes in vitreous chamber depth. This explains why myopia is often associated with clinical features in the posterior segment of the eye, e.g. peri-papillary atrophy, tesselation.
 
-Jekyll requires blog post files to be named according to the following format:
+That said, when modelled with a simple linear regression, AL alone does not explain the observed variance in spherical equivalent refraction (SER) to a very high degree. Most published studies reported R^2 of around 0.7. This suggests that the remaining 30% of variation in SER must be due to factors other than AL. Indeed, when anterior corneal radius (CR) is considered alongside AL, i.e. AL/CR, the explained variance often increases to over 0.8. Apart from measurement error, the remaining uncaptured variance can probably be accounted for by posterior corneal curvature, lenticular curvature (anterior and posterior) and refractive indices of cornea, aqeuous humour, lens as well as vitreous humour.
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
