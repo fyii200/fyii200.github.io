@@ -28,11 +28,16 @@ This is corroborated by an unpublished dataset that I am playing with (412 insta
 ### Figure 1
 ![Figure 1](/docs/figures/2021-12-26-fig1.png)
 
+<img src="/docs/figures/2021-12-26-fig1.png" />
+
 The remaining uncaptured variance (after incorporating anterior CR) can plausibly be accounted for by lens curvature.[^1] Apart from measurement error, noise associated with normal variation in posterior corneal curvature as well as the refractive indices of cornea, aqueous humour, crystalline lens and vitreous humour is also likely to have attenuated <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> to some extent.[^2]
 
 This naturally leads one to wonder:
 > Can we further improve the performance of DL that predicts ametropia from retinal images with the addition of anterior CR data?
+<br>
+<br>
 
----
+
+
 [^1]: Since the lens contributes about 1/3 of the effective power of the eye, it is, alongside anterior corneal curvature, implicated in refractive ametropia. if left unaccounted for in a linear regression model, the residuals won't be normally distributed with centre at 0. This results in lower <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />.
 [^2]: These parameters are not usually implicated in refractive ametropia, e.g. posterior corneal curvature contributes little to the effective power of the eye because the difference in refractive index between the cornea, 1.376, and aqueous humour, 1.336, is small. And recall that <img src="https://latex.codecogs.com/svg.image?F&space;=&space;\frac{n^{'}-n}{r}&space;" title="F = \frac{n^{'}-n}{r} " />. But individual variation in these parameters may lower <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> by means of Gaussian noise (cause points to lie further away from the line of best fit).
