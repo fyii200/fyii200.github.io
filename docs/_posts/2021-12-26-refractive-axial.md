@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Idenfying refractive error with a significant non-axial component"
+title:  "Motivation to differentiate between axial and refractive ametropia"
 date:   2021-12-26 14:49:02 +0000
 categories: jekyll update
 ---
@@ -26,8 +26,7 @@ But data from the real world suggest that we get a fuller picture of an eye's re
 This is corroborated by an unpublished dataset that I am playing with (412 instances; unknown age but likely to be university students). <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> increases from **0.697** with AL to **0.817** with AL/CR (see Figure 1). Older age could [partly explain](https://iovs.arvojournals.org/article.aspx?articleid=2183169) why our <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />  is higher, since compensatory lens/ corneal changes are more likely to be seen in younger children (in the two studies above, age ≤ 12y/o) than adults. 
 
 ### Figure 1
-![Figure 1](fyii200.github.io/docs/figures/2021-12-26-fig1.png)
-
+![Figure 1](/figures/2021-12-26-fig1.png)
 
 The remaining uncaptured variance (after incorporating anterior CR) can plausibly be accounted for by lens curvature.[^1] Apart from measurement error, noise associated with normal variation in posterior corneal curvature as well as the refractive indices of cornea, aqueous humour, crystalline lens and vitreous humour is also likely to have attenuated <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> to some extent.[^2]
 
@@ -35,7 +34,7 @@ This naturally leads one to wonder:
 > Can we further improve the performance of DL that predicts ametropia from retinal images with the addition of anterior CR data?
 
 <br>
-<br>
 
+---
 [^1]: Since the lens contributes about 1/3 of the effective power of the eye, it is, alongside anterior corneal curvature, implicated in refractive ametropia. if left unaccounted for in a linear regression model, the residuals won't be normally distributed with centre at 0. This results in lower <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />.
 [^2]: These parameters are not usually implicated in refractive ametropia, e.g. posterior corneal curvature contributes little to the effective power of the eye because the difference in refractive index between the cornea, 1.376, and aqueous humour, 1.336, is small. And recall that <img src="https://latex.codecogs.com/svg.image?F&space;=&space;\frac{n^{'}-n}{r}&space;" title="F = \frac{n^{'}-n}{r} " />. But individual variation in these parameters may lower <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> by means of Gaussian noise (cause points to lie further away from the line of best fit).
