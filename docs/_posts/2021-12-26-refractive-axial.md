@@ -25,6 +25,8 @@ But data from the real world suggest that we get a fuller picture of an eye's re
 
 This is corroborated by an unpublished dataset that I am playing with (412 instances; unknown age but likely to be university students). <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> increases from **0.697** with AL to **0.817** with AL/CR (see Figure 1). Older age could [partly explain](https://iovs.arvojournals.org/article.aspx?articleid=2183169) why our <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />  is higher, since compensatory lens/ corneal changes are more likely to be seen in younger children (in the two studies above, age ≤ 12y/o) than adults. 
 
+![Figure 1](/docs/figures/2021-12-26-fig1.pdf)
+
 The remaining uncaptured variance (after incorporating anterior CR) can plausibly be accounted for by lens curvature.[^1] Apart from measurement error, noise associated with normal variation in posterior corneal curvature as well as the refractive indices of cornea, aqueous humour, crystalline lens and vitreous humour is also likely to have attenuated <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> to some extent.[^2]
 
 This naturally leads one to wonder:
