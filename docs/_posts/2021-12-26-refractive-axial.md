@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Motivation to differentiate between axial and refractive ametropia"
+title:  "Why care about differentiating axial from refractive ametropia?"
 date:   2021-12-26 14:49:02 +0000
 categories: jekyll update
 ---
