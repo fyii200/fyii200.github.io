@@ -8,13 +8,13 @@ tags: axial refractive myopia
 Refractive error (ametropia thereafter) arises from a mismatch between axial length (AL) and the effective power of the refractive components of the eye, i.e. cornea, crystalline lens. Such mismatch is often (predominantly) **axial** in nature. AL is typically high (>24mm as a fairly useful rule of thumb) in myopes. Importantly, axial elongation is mainly attributable to changes in vitreous chamber depth. This explains why myopia is associated with clinical features in the posterior segment of the eye, e.g. peripapillary atrophy (PPA), tesselation.
 
 In trying to elucidate what a deep learning (DL) model such as [Varadarajan's](https://iovs.arvojournals.org/article.aspx?articleid=2683803) looks at when predicting refractive error (regression task) from fundus images, I'm drawn to think that a large part of the model is really just predicting the axial component of ametropia. This is based on the understanding that: 
-1. Variation in corneal and lenticular features is hardly reflected in a fundus image.
+1. Variation in corneal and lenticular features is hardly reflected in a fundus image (other than fundus magnification? But see below).
 2. Retinal features that could possibly hold information about ametropia are mostly axial in nature.
 
 Regarding (2), these retinal features **does not necessarily have to be biologically meaningful**, i.e. retinal thinning, PPA, etc., but they can also be related to the complex interactions between the camera system and the optics peculiar to the eye. One prominent example of the latter is the **variation in fundus magnification** across different levels of ametropia, which I will focus on in another post. For now, it is suffice to say that: 
 > the main source of variation in fundus magnification is variation in AL rather than cornea/ lens curvature.
 
-Therefore, we can hypothesise that:
+Taken together, we can hypothesise that:
 > DL should at least be as good at predicting AL from fundus images as it is at predictng ametropia.
 
 By extension, this also implies that:
