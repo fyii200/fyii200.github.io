@@ -26,16 +26,28 @@ But real-world data suggest otherwise. We get a fuller picture of an eye's refra
 
 This is corroborated by an unpublished dataset that I am playing with (412 instances; unknown age but likely to be university students). <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> increases from **0.697** with AL to **0.817** with AL/CR (see Figure 1). Older age could [partly explain](https://iovs.arvojournals.org/article.aspx?articleid=2183169) why our <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />  is higher, since compensatory lens/ corneal changes are more likely to be seen in younger children (in the two studies above, age ≤ 12y/o) than adults. 
 
-### Figure 1
+#### Figure 1
+##### Coefficient of determination is higher with AL/CR.
 ![Figure 1](/figures/2021-12-26-fig1.png)
 
-The remaining uncaptured variance (after incorporating anterior CR) can plausibly be (partly) accounted for by lens curvature.[^1] Besides measurement error, noise associated with the normal variation in posterior corneal curvature as well as the refractive indices of cornea, aqueous humour, crystalline lens and vitreous humour is also likely to have reduced <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" /> to some extent.[^2]
+<br>
+
+As seen in Figure 2, the distribution of residuals is negatively skewed when we only consider AL (left), indicating that some variation in SER is left unaccounted for by other factor(s). Indeed, the distribution is more gaussian-like with the addition of anterior CR (right). This is not surprising, given that anterior CR contributes the most to the effective power of the eye and is therefore often implicated in refractive ametropia[^1]. 
+
+If we disregard the single outlier (right histogram; residual ~ -12D), the distribution of the residuals does resemble a normal distribution (not perfect but much better than before). These residuals can therefore be seen as **random** noise associated with **normal** variation in parameters such as the refractive indices of cornea, aqueous humour, lens and vitreous humour. They do not have as much value as AL and anterior CR in explaining the variation in SER among individuals. 
+
+#### Figure 2: 
+##### Distribution of residuals becomes more gaussian-like with the addition of anterior CR.
+![Figure 2](/figures/2021-12-26-fig2.jpg)
+
+<br>
 
 This naturally leads one to wonder:
-> Can we further improve the performance of DL that predicts ametropia from retinal images with the addition of anterior CR data?
+> Can we further improve the performance of a DL model that predicts ametropia from retinal images with the addition of anterior CR data?
 
 <br>
 
 ---
-[^1]: Since the lens contributes about 1/3 of the effective power of the eye, it is, alongside anterior corneal curvature, implicated in refractive ametropia. if left unaccounted for in a linear regression model, the residuals won't be normally distributed with centre at 0. This results in lower <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />.
-[^2]: These parameters are not usually implicated in refractive ametropia, e.g. posterior corneal curvature contributes little to the effective power of the eye because the difference in refractive index between the cornea, 1.376, and aqueous humour, 1.336, is small. And recall that <img src="https://latex.codecogs.com/svg.image?F&space;=&space;\frac{n^{'}-n}{r}&space;" title="F = \frac{n^{'}-n}{r} " />. But individual variation in these parameters add Gaussian (assuming normal distribution) noise to the underlying functon and may therefore reduce <img src="https://latex.codecogs.com/svg.image?R^2" title="R^2" />.
+[^1]: 2/3 of the effective power of the [Gullstrand's schematic eye](http://www.oculist.net/downaton502/prof/ebook/duanes/pages/v1/v1c033.html#mag) comes from the cornea, with the remaining coming from the lens. Recall that <img src="https://latex.codecogs.com/svg.image?F&space;=&space;\frac{n^{'}-n}{r}&space;" title="F = \frac{n^{'}-n}{r} " />; the difference in refractive index is largest between the air (n=1) and cornea (n=1.376), making anterior CR the largest determinant of corneal effective power. Light emerging from posterior cornea experiences little change in refractive index (*cornea* n=1.376 - *aqueous* n=1.336); thus, posterior CR contributes little to corneal effective power. Likewise, there is relatively little variation in refractive index between aqueous n=1.336), lens (for the sake of simplicity, assume homogeneous lens with a constant n=1.420) and vitreous (n=1.336). Hence, variation in (anterior or posterior) lens curvature does not have as big of an impact on refractive status as anterior CR.  
+
+
