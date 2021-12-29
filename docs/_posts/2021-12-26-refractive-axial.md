@@ -3,6 +3,7 @@ layout: post
 title:  "Why care about differentiating axial from refractive ametropia?"
 date:   2021-12-26 14:49:02 +0000
 categories: jekyll update
+tags: axial refractive myopia
 ---
 Refractive error (ametropia thereafter) arises from a mismatch between axial length (AL) and the refractive components of the eye, i.e. cornea, crystalline lens. Such mismatch is often **axial** in nature. AL is typically high (>24mm as a fairly useful rule of thumb) in myopes. Importantly, axial elongation is mainly attributable to changes in vitreous chamber depth. This explains why myopia is associated with clinical features in the posterior segment of the eye, e.g. peripapillary atrophy (PPA), tesselation.
 

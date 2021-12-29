@@ -31,9 +31,12 @@ github_username:  fyii200
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-tabs
+
+show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
