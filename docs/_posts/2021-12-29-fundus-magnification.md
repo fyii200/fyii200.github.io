@@ -57,11 +57,11 @@ Considering `QP'` and `PE`, n1 is the refractive index of aqeuous/ vitreous humo
 
 Substituting (6) into (4):
 
-<p align="center"> (7) <img src="https://latex.codecogs.com/svg.image?t&space;=&space;\frac{U&space;\cdot&space;K'}{1.336}" title="t = \frac{U \cdot K'}{1.336}" /> </p>
+<p align="center"> (7) <img src="https://latex.codecogs.com/svg.image?t&space;=&space;\frac{U&space;\cdot&space;k'}{1.336}" title="t = \frac{U \cdot k'}{1.336}" /> </p>
 
 `U` is in radian because the small-angle approximation only works if the unit is radian. Let's convert it to degree:
 
-<p align="center"> (8) <img src="https://latex.codecogs.com/svg.image?t&space;=&space;\frac{U^{o}&space;\cdot&space;K'}{1.336&space;\times&space;&space;57.2958}&space;=&space;0.01306&space;\cdot&space;K'&space;\cdot&space;U^{o}" title="t = \frac{U^{o} \cdot K'}{1.336 \times 57.2958} = 0.01306 \cdot K' \cdot U^{o}" /> </p>
+<p align="center"> (8) <img src="https://latex.codecogs.com/svg.image?t&space;=&space;\frac{U^{o}&space;\cdot&space;k'}{1.336&space;\times&space;&space;57.2958}&space;=&space;0.01306&space;\cdot&space;k'&space;\cdot&space;U^{o}" title="t = \frac{U^{o} \cdot k'}{1.336 \times 57.2958} = 0.01306 \cdot k' \cdot U^{o}" /> </p>
 
 <br>
 ### Now express image size, `s`
@@ -73,47 +73,76 @@ We can re-express `s` from our telecentric assumption:
 where `p` is a camera-specific constant. It tells us:
 > How big of a change in `y` size should we expect to see a 1-unit change in image size?
 
-Assuming that the distance between the eye `p` and the condenser is constant (e.g. minimal head movement, etc.), the only immediate variable that could effect `y` is the angle between the refracted ray (by the eye) and optical axis, `U`. Hence:
+Assuming that the distance between the eye `p` and the condenser is constant (e.g. minimal head movement, etc.), the only variable that could effect `y` is the angle between the refracted ray (by the eye) and optical axis, `U`. Hence:
 
 <p align="center"> (10) <img src="https://latex.codecogs.com/svg.image?s&space;=&space;\frac{U}{p}" title="s = \frac{U}{p}" /> </p>
 
 After re-expressing (10), i.e. `U = s.p, we can substitute the resultant expression into (8):
 
-<p align="center"> (11) <img src="https://latex.codecogs.com/svg.image?t&space;=&space;0.01306&space;\cdot&space;K'&space;\cdot&space;s&space;\cdot&space;p" title="t = 0.01306 \cdot K' \cdot s \cdot p" /> </p>
+<p align="center"> (11) <img src="https://latex.codecogs.com/svg.image?t&space;=&space;0.01306&space;\cdot&space;k'&space;\cdot&space;s&space;\cdot&space;p" title="t = 0.01306 \cdot k' \cdot s \cdot p" /> </p>
 
 
 ### Final magnification equation
 
 We can move `s` to the other side of the equation and arrive at our final equation for magnification, `M`:
 
-<p align="center"> (12) <img src="https://latex.codecogs.com/svg.image?M&space;=&space;\frac{s}{t}&space;=\frac{1}{0.01306&space;\cdot&space;K'&space;\cdot&space;p&space;}&space;" title="M = \frac{s}{t} =\frac{1}{0.01306 \cdot K' \cdot p } " /> </p>
+<p align="center"> (12) <img src="https://latex.codecogs.com/svg.image?M&space;=&space;\frac{s}{t}&space;=\frac{1}{0.01306&space;\cdot&space;k'&space;\cdot&space;p&space;}&space;" title="M = \frac{s}{t} =\frac{1}{0.01306 \cdot k' \cdot p } " /> </p>
 
-Since `p` is a constant (can be thought of as the camera magnification factor with a telecentric design), the only variable that affects magnification is `K'`, which is the distance between the secondary principal point, `P'` and the centre of the retina. Therefore:
+Since `p` is a constant (can be thought of as the camera magnification factor with a telecentric design), the only variable that affects magnification is `K'`, which is the distance between the secondary principal point of the eye, `P'` and the centre of the retina. Therefore:
 
-<p align="center"> (13) <img src="https://latex.codecogs.com/svg.image?K'&space;=&space;AL&space;-&space;A_{1}P'&space;" title="K' = AL - A_{1}P' " /> </p>
+<p align="center"> (13) <img src="https://latex.codecogs.com/svg.image?k'&space;=&space;AL&space;-&space;A_{1}P'&space;" title="k' = AL - A_{1}P' " /> </p>
 
 *where AL is axial length and <img src="https://latex.codecogs.com/svg.image?A_{1}P'&space;" title="A_{1}P' " /> is the distance between the corneal apex and `P'`.*
 
 > It is now obvious that total magnification is dependent on axial length, i.e. the longer the eye (tend to be more myopic), the smaller the magnification.
 
-> Total magnification also depends on the position of P' from the corneal apex, which is dependent on corneal and lens powers.
+> Total magnification also depends on the position of P' from the corneal apex, which is in turn dependent on corneal and lens powers.
 
 <br>
 
-#### Justification that AL rather than cornea/ lens affects `M` to a larger extent
-Let's assume that the eye in Figure 1 depicts the Gullstrand-Emsley schematic eye. Table 12.6 in the book by [Bennett & Rebbetts 1984](https://www.semanticscholar.org/paper/Clinical-Visual-Optics-Bennett-Rabbetts/e29470029b10319e205205eaf3caa69883726858) shows how <img src="https://latex.codecogs.com/svg.image?A_{1}P'&space;" title="A_{1}P' " /> changes over a wide range of corneal and lens powers.
+### Justification that axial length affects `M` to a larger extent
+Let's assume that the eye in Figure 1 depicts the Gullstrand-Emsley schematic eye. Table 12.6 in the book by [Bennett & Rebbetts 1984](https://www.semanticscholar.org/paper/Clinical-Visual-Optics-Bennett-Rabbetts/e29470029b10319e205205eaf3caa69883726858) shows how <img src="https://latex.codecogs.com/svg.image?A_{1}P'&space;" title="A_{1}P' " /> changes over a wide range of corneal and lens powers. The table also shows the equivalent power of the eye, <img src="https://latex.codecogs.com/svg.image?F_{eye}" title="F_{eye}" />, for each combination of corneal and lens powers. One important observation is:
+
+> <img src="https://latex.codecogs.com/svg.image?A_{1}P'&space;" title="A_{1}P' " /> varies only by a small amount (1.35mm - 2.35mm) over a wide range of corneal-lens power combinations
+
+<br>
+##### Table 1: Column marked with asterisks represents emmetropia in the Gullstrand-Emsley schematic eye. 
 
 <table>
+<tr>
+<td  colspan=1>Corneal power (D)</td> <td style="text-align:center" colspan=3> +38.00</td>  <td style="text-align:center" colspan=3> +42.73 </td> <td style="text-align:center" colspan=3> +48.00</td>
+</tr>
 
 <tr>
-<td  colspan=1>Corneal power (D) <td style="text-align:center" colspan=3> +38.00  <td style="text-align:center" colspan=3> +42.73 <td style="text-align:center" colspan=3> +48.00
+<td colspan=1>Lens power (D)</td> <td colspan=1>+15.0</td> <td colspan=1>+21.3</td> <td colspan=1>+29.0</td> <td colspan=1>+15.0</td> <td colspan=1> *+21.3*</td> <td colspan=1>+29.0</td> <td colspan=1>+15.00</td> <td colspan=1>+21.30</td> <td colspan=1>+29.00</td> 
+</tr>
 
 <tr>
-<td colspan=1>Lens power (D) <td colspan=1>+15.0 <td colspan=1>+21.3 <td colspan=1>+29.0 <td colspan=1>+15.0 <td colspan=1>+21.3 <td colspan=1>+29.0 <td colspan=1>+38.00 <td colspan=1>+42.73 <td colspan=1>+48.00 
+<td colspan=1> <img src="https://latex.codecogs.com/svg.image?F_{eye}" title="F_{eye}" /> (D) </td> <td colspan=1>+51.24</td> <td colspan=1>+56.20</td> <td colspan=1>+61.60</td> <td colspan=1>+55.65</td> <td colspan=1> *+60.49* </td> <td colspan=1>+65.76</td> <td colspan=1>+60.55</td> <td colspan=1>+65.26</td> <td colspan=1>+70.39</td> 
+</tr>
 
 <tr>
-<td colspan=1> <img src="https://latex.codecogs.com/svg.image?A_{1}P'&space;" title="A_{1}P' " /> (mm) <td colspan=1>1.65 <td colspan=1>2.03 <td colspan=1>2.35 <td colspan=1>1.50 <td colspan=1>1.85 <td colspan=1>2.17 <td colspan=1>1.35 <td colspan=1>1.69 <td colspan=1>1.98
+<td colspan=1> <img src="https://latex.codecogs.com/svg.image?A_{1}P'&space;" title="A_{1}P' " /> (mm)</td> <td colspan=1>1.65</td> <td colspan=1>2.03</td> <td colspan=1>2.35</td> <td colspan=1>1.50</td> <td colspan=1> *1.85* </td> <td colspan=1>2.17</td> <td colspan=1>1.35</td> <td colspan=1>1.69</td> <td colspan=1>1.98</td>
+</tr>
+</table>
+
+#### Modelling refractive ametropia using Table 1
+We will hold AL constant with a value that would normally give rise to emmetropia and use different combinations of corneal-lens power in Table 1. Emmetropic AL can be found by first calculating `k'`, i.e. distance from `P'` (because refraction occurs here) to back of the eye:
+
+<p align="center"> (14) <img src="https://latex.codecogs.com/svg.image?F_{eye}&space;=&space;\frac{n'}{k'}&space;-&space;L" title="F_{eye} = \frac{n'}{k'} - L" /> </p>
+
+*Where <img src="https://latex.codecogs.com/svg.image?F_{eye}" title="F_{eye}" /> is the equivalent power of an emmetropic eye; `n'` is the refractive index of aqeuous/ vitreous humour; `L` is the vergence of the incident light.* `L` is 0 in an emmetropic eye because its far point is at inifinity. Thus, solving the following equation:
+
+<p align="center"> <img src="https://latex.codecogs.com/svg.image?60.49&space;=&space;\frac{1.333}{k'}&space;-&space;0" title="60.49 = \frac{1.333}{AL} - 0" /> </p>
+
+gives us **`k'`= 22.04mm**. 
+
+**`AL`** is simply <img src="https://latex.codecogs.com/svg.image?A_{1}P'" title="A_{1}P'" /> + `k'`= 22.04mm + 1.85mm (Table 1) = **23.89mm**.
+
+We can then repurpose equation (14) to calculate (refractive) ametropia, i.e. solve for `L` because it represents ametropia (its reciprocal is equal to the far point) 
 
 
 
+
+![Figure 2](/figures/2021-12-29-fig2.png)
 
