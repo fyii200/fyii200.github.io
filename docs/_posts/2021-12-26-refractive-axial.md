@@ -11,7 +11,7 @@ In trying to elucidate what a deep learning (DL) model such as [Varadarajan's](h
 1. Variation in corneal and lenticular features is hardly reflected in a fundus image (other than fundus magnification? But see below).
 2. Retinal features that could possibly hold information about ametropia are mostly axial in nature.
 
-Regarding (2), these retinal features **does not necessarily have to be biologically meaningful**, i.e. retinal thinning, PPA, etc., but they can also be related to the complex interactions between the camera system and the optics peculiar to the eye. One prominent example of the latter is the **variation in fundus magnification** across different levels of ametropia, which I will focus on in another post. For now, it is suffice to say that: 
+Regarding (2), these retinal features **does not necessarily have to be biologically meaningful**, i.e. retinal thinning, PPA, etc., but they can also be related to the complex interactions between the camera system and the optics peculiar to the eye. One prominent example of the latter is the **variation in fundus magnification** across different levels of ametropia, which I will focus on in another [post](https://fyii200.github.io/jekyll/update/2021/12/29/fundus-magnification.html). For now, it is suffice to say that: 
 > the main source of variation in fundus magnification is variation in AL rather than cornea/ lens curvature.
 
 Taken together, we can hypothesise that:

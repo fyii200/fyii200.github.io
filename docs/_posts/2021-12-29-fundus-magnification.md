@@ -6,7 +6,7 @@ categories: jekyll update
 tags: fundus magnification across different levels of ametropia
 ---
 
-In the previous post, I hypothesised that a fundus-based DL model would have difficulty predicting the refractive component of ametropia, i.e. that part of refractive error attributable to corneal/ lens curvature. This is due not only to the absence of biologically meaningful features associated with corneal/ lens curvature in fundus images, but also because **variation in corneal/ lens curvature gives rise to relatively small variation in fundus magnification.** There is little information about corneal/ lens curvature in fundus images, so to speak. I discuss below how I arrived at this conclusion.
+In the previous [post](https://fyii200.github.io/jekyll/update/2021/12/26/refractive-axial.html), I hypothesised that a fundus-based DL model would have difficulty predicting the refractive component of ametropia, i.e. that part of refractive error attributable to corneal/ lens curvature. This is due not only to the absence of biologically meaningful features associated with corneal/ lens curvature in fundus images, but also because **variation in corneal/ lens curvature gives rise to relatively small variation in fundus magnification.** There is little information about corneal/ lens curvature in fundus images, so to speak. I discuss below how I arrived at this conclusion.
 
 ## Theoretical justification
 ##### Figure 1: ray diagram depicting a myopic three-surface schematic eye in front of an objective (condenser) lens with telecentric design (taken from [Bennett et al. 1994](https://link.springer.com/content/pdf/10.1007/BF00175988.pdf))
