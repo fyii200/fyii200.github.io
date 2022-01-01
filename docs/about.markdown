@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a PhD candidate based in the [Centre for Clinical Brain Sciences](https://www.ed.ac.uk/clinical-brain-sciences), with affliations to [SCONe](https://www.ed.ac.uk/clinical-sciences/ophthalmology/scone/about-scone) and [VAMPIRE](https://vampire.computing.dundee.ac.uk). The big picture of my PhD 
+I am a PhD candidate based in the [Centre for Clinical Brain Sciences](https://www.ed.ac.uk/clinical-brain-sciences). I'm affiliated with [SCONe](https://www.ed.ac.uk/clinical-sciences/ophthalmology/scone/about-scone) and [VAMPIRE](https://vampire.computing.dundee.ac.uk). The big picture of my PhD 
 is to apply artificial intelligence approaches to predicting myopia onset, myopia progression and risk of pathologic myopia. 
 
 > #### This site functions as an open laboratory notebook to support the [Open Science Initiative](https://en.wikipedia.org/wiki/Open_science). I provide a super high-level overview of my PhD below. If you have at least 20 minutes, however, you may wish to read a more elaborate version [here](https://github.com/fyii200/fyii200.github.io).
