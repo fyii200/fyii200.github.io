@@ -25,7 +25,7 @@ In the previous [post](https://fyii200.github.io/jekyll/update/2021/12/26/refrac
 
 ---
 #### Deriving the equation for total magnification (using Figure 1 as reference)
-Total magnification depends on the magnification due to the camera and that due to the optics of an eye. In deriving the equation for total magnification, it is helpful to keep in mind the general equation for magnification, `M`:
+Total magnification depends on the magnification due to the camera and that due to the optics of an eye. In deriving the equation for total magnification, it is helpful to keep the general equation for magnification, `M`, in mind:
 
 <p align="center"> (1) <img src="https://latex.codecogs.com/svg.image?M&space;=&space;\frac{s}{t}" title="M = \frac{s}{t}" /> </p> 
 
