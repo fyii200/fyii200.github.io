@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I am  a postdoctoral researcher funded by an independent MRC Transition Fellowship at the University of Edinburgh (UoE) and also hold a visiting research position at King’s College London. My research lies at the intersection of data and vision sciences, focusing on the development and application of data-driven/computational tools for personalised risk prediction of common eye diseases, particularly myopia and its associated complications. 
+I am a data scientist with research interests in common eye diseases, focusing on myopia and its associated conplications. I am currently funded by an independent MRC Transition Fellowship at the University of Edinburgh (UoE) and also hold a visiting research position at King’s College London. 
 
-I completed a PhD with Integrated Study in various areas of data science as part of the Precision Medicine DTP at UoE, shortly after my undergraduate training in the Department of Vision Sciences at Glasgow Caledonian University. 
+I obtained my Precision Medicine PhD with Integrated Study in data science from UoE, following my undergraduate training in the Department of Vision Sciences at Glasgow Caledonian University. 
 
 
 
